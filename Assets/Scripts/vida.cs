@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIHealthBar : MonoBehaviour
+public class vida : MonoBehaviour
 {
-    public static UIHealthBar instance { get; private set; }
+    public static vida instance { get; private set; }
 
     public Image mask;
     float originalSize;
