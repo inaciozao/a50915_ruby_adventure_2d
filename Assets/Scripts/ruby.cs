@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RubyControllerr : MonoBehaviour
+public class ruby : MonoBehaviour
 {
     public float speed = 3.0f;
 
@@ -30,7 +30,7 @@ public class RubyControllerr : MonoBehaviour
     AudioSource audioSource;
 
     // Start is called before the first frame update
-    void Startt()
+    void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -41,7 +41,7 @@ public class RubyControllerr : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Updatee()
+    void Update()
     {
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");

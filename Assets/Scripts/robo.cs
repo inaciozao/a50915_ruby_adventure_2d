@@ -1,4 +1,8 @@
-public class EnemyController : MonoBehaviour
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class robo : MonoBehaviour
 {
     public float speed;
     public bool vertical;
@@ -66,7 +70,7 @@ public class EnemyController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        RubyController player = other.gameObject.GetComponent<RubyController>();
+        ruby player = other.gameObject.GetComponent<ruby>();
 
         if (player != null)
         {
