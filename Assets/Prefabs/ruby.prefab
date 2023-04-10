@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 3486063890338937727}
   - component: {fileID: -7113142748752840660}
   - component: {fileID: 213821562470854205}
-  m_Layer: 0
+  - component: {fileID: -1360338293311357095}
+  m_Layer: 7
   m_Name: ruby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,3 +156,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-1360338293311357095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8657141881017657505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58806fe0230c2aa45a4e5f0246be9043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  maxHealth: 5
+  projectilePrefab: {fileID: 867171965214645045, guid: 99735ae83ae63f14a821a27418ef64a2, type: 3}
+  throwSound: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
+  hitSound: {fileID: 8300000, guid: ae904c7305df7344d86b2092c0cb3a26, type: 3}
+  timeInvincible: 2

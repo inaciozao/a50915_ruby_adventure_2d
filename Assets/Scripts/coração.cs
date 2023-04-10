@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthCollectible : MonoBehaviour
+public class coração : MonoBehaviour
 {
     public AudioClip collectedClip;
 
